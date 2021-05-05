@@ -1,6 +1,4 @@
 const { VueLoaderPlugin } = require('vue-loader');
-const { plugins } = require('../../container/config/webpack.common');
-
 module.exports = {
     entry: './src/index.js',
     output: {
